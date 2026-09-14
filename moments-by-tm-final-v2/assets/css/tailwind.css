@@ -1,0 +1,7 @@
+/*! tailwindcss v4.1.10 | MIT License | https://tailwindcss.com */
+.relative {
+  position: relative;
+}
+.overflow-hidden {
+  overflow: hidden;
+}

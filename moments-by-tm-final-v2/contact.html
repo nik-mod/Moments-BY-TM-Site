@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="ka">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#F8F5F0" name="theme-color"/>
+<meta content="Moments by TM-ის ფოტოსესიის დაჯავშნის მოთხოვნა და საკონტაქტო ინფორმაცია." name="description"/>
+<title>დაჯავშნა — Moments by TM</title>
+<script>document.documentElement.classList.add("js")</script>
+<link href="assets/css/tailwind.css" rel="stylesheet"/>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+<script defer="" src="assets/js/app.js"></script>
+</head>
+<body>
+<div class="site-shell">
+<div aria-hidden="true" class="scroll-progress"></div>
+<a class="skip-link" href="#main">მთავარ კონტენტზე გადასვლა</a>
+<header class="site-header">
+<div class="header-inner">
+<a aria-label="Moments by TM — მთავარი გვერდი" class="brand" href="index.html">
+<span class="brand-main">Moments by TM</span>
+<span class="brand-sub">Tamari Modebadze · Photographer</span>
+</a>
+<nav aria-label="მთავარი ნავიგაცია" class="desktop-nav"><a class="nav-link" href="index.html">მთავარი</a><a class="nav-link" href="portfolio.html">პორტფოლიო</a><a class="nav-link" href="about.html">ჩემ შესახებ</a><a class="nav-link" href="services.html">სერვისები და ფასები</a><a class="nav-link active" href="contact.html">კონტაქტი</a></nav>
+<div class="header-actions">
+<a class="nav-cta" href="contact.html">დაჯავშნა <svg aria-hidden="true" class="btn-arrow" fill="none" height="14" viewbox="0 0 14 14" width="14"><path d="M2 7h9M7.5 3.5 11 7l-3.5 3.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"></path></svg></a>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="მენიუს გახსნა" class="menu-toggle" type="button"><span></span></button>
+</div>
+</div>
+</header><div aria-label="მობილური მენიუ" class="mobile-menu" id="mobile-menu">
+<nav class="mobile-nav"><a class="" href="index.html">მთავარი</a><a class="" href="portfolio.html">პორტფოლიო</a><a class="" href="about.html">ჩემ შესახებ</a><a class="" href="services.html">სერვისები და ფასები</a><a class="active" href="contact.html">კონტაქტი</a></nav>
+<div class="mobile-menu-footer"><span>თბილისი · საქართველო</span><a href="https://www.instagram.com/momentsbytm/" rel="noopener" target="_blank">@momentsbytm ↗</a></div>
+</div>
+<main class="page-main" id="main">
+<section class="page-hero"><div class="container page-hero-grid"><div class="reveal"><span class="eyebrow">Reservation request</span><h1>დავგეგმოთ თქვენი ფოტოსესია</h1></div><p class="reveal reveal-delay-1">შეავსეთ მოკლე ფორმა. საიტი მოამზადებს თქვენს მოთხოვნას და შეგიძლიათ პირდაპირ Moments by TM-ის Instagram-ზე გადახვიდეთ მის გასაგზავნად.</p></div></section>
+<section class="section"><div class="container contact-grid">
+<aside class="contact-panel reveal">
+<div class="contact-quote">„მომიყევით არა მხოლოდ სად გინდათ გადაღება — მომიყევით, როგორი შეგრძნება გინდათ დარჩეს ფოტოებში.“</div>
+<div class="contact-card"><span class="label">Instagram</span><strong>@momentsbytm</strong><p>სწრაფი კომუნიკაციისთვის შეგიძლიათ მომწეროთ პირდაპირ Instagram-ზე.</p><a href="https://www.instagram.com/momentsbytm/" rel="noopener" style="display:inline-block;margin-top:10px;color:var(--terracotta-dark);font-size:12px" target="_blank">პროფილის გახსნა ↗</a></div>
+<div class="contact-card"><span class="label">ლოკაცია</span><strong>თბილისი · საქართველო</strong><p>გადაღების ლოკაცია კონკრეტული ფოტოსესიის იდეის მიხედვით შეთანხმდება.</p></div>
+<div class="contact-card"><span class="label">დადასტურება</span><strong>დაჯავშნა შეთანხმების შემდეგ</strong><p>თარიღი დადასტურებულად ითვლება მხოლოდ დეტალებისა და პირობების საბოლოო შეთანხმების შემდეგ.</p></div>
+</aside>
+<form class="booking-form reveal reveal-delay-1" id="booking-form" novalidate="">
+<div class="form-head"><div><h2>დაჯავშნის მოთხოვნა</h2><p>შეავსეთ ველები და სისტემა მოგიმზადებთ გასაგზავნ ტექსტს.</p></div><span class="form-status-badge">დაჯავშნა</span></div>
+<div class="form-grid">
+<div class="form-field"><label for="name">სახელი და გვარი *</label><input autocomplete="name" id="name" name="name" placeholder="თქვენი სახელი" type="text"/><span class="error" data-error-for="name"></span></div>
+<div class="form-field"><label for="phone">ტელეფონი *</label><input autocomplete="tel" id="phone" name="phone" placeholder="+995 ..." type="tel"/><span class="error" data-error-for="phone"></span></div>
+<div class="form-field"><label for="email">ელფოსტა</label><input autocomplete="email" id="email" name="email" placeholder="name@example.com" type="email"/><span class="error" data-error-for="email"></span></div>
+<div class="form-field"><label for="session">ფოტოსესიის ტიპი *</label><select id="session" name="session"><option value="">აირჩიეთ</option><option value="portrait">ინდივიდუალური — 200 ₾</option><option value="couple">წყვილის ფოტოსესია — 250 ₾</option><option value="family">საოჯახო — 250 ₾</option><option value="celebration">ნათლობა / ჯვრისწერა / დაბადების დღე — 350 ₾</option><option value="wedding">ქორწილი — 1,500 ₾-დან</option></select><span class="error" data-error-for="session"></span></div>
+<div class="form-field full"><label for="date">სასურველი თარიღი *</label><input id="date" name="date" type="date"/><span class="error" data-error-for="date"></span></div>
+<div class="form-field full"><label for="message">მომიყევით თქვენს იდეაზე *</label><textarea id="message" name="message" placeholder="ლოკაცია, განწყობა, ადამიანების რაოდენობა ან ნებისმიერი დეტალი, რომელიც მნიშვნელოვანია..."></textarea><span class="error" data-error-for="message"></span></div>
+</div>
+<label class="consent" for="consent"><input id="consent" type="checkbox"/><span>ვეთანხმები, რომ ფორმაში მითითებული ინფორმაცია გამოყენებულ იქნას მხოლოდ ჩემი დაჯავშნის მოთხოვნის მოსამზადებლად.</span></label><div class="error" data-error-for="consent"></div>
+<div class="form-actions"><button class="btn-primary" type="submit">მოთხოვნის მომზადება <svg aria-hidden="true" class="btn-arrow" fill="none" height="14" viewbox="0 0 14 14" width="14"><path d="M2 7h9M7.5 3.5 11 7l-3.5 3.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"></path></svg></button><a class="btn-secondary" href="https://www.instagram.com/momentsbytm/" rel="noopener" target="_blank">Instagram ↗</a></div>
+<p class="form-note">ეს არის სრულად client-side ფორმა: მონაცემები საიტიდან სერვერზე არ იგზავნება. გაგზავნისთვის გამოიყენეთ მომზადებული ტექსტი Instagram-ზე.</p>
+<div aria-live="polite" class="form-success" role="status">მოთხოვნის ტექსტი მზადაა და დაკოპირდა. გახსენით <a href="https://www.instagram.com/momentsbytm/" rel="noopener" style="text-decoration:underline" target="_blank">@momentsbytm</a> და ჩასვით შეტყობინებაში.</div>
+</form>
+</div></section>
+<section class="section section-soft"><div class="container"><div class="section-heading reveal"><span class="eyebrow">პორტფოლიო</span><h2>კადრის განწყობა წინასწარ იქმნება</h2><p>ლოკაციასა და ვიზუალურ მიმართულებას გადაღებამდე ერთად ვარჩევთ.</p></div><div class="contact-gallery"><figure class="image-reveal"><img alt="ინდივიდუალური ფოტოსესია" loading="lazy" sizes="(max-width: 620px) calc(100vw - 28px), (max-width: 1100px) 50vw, 42vw" src="assets/images/portrait-vintage-car.jpg" srcset="assets/images/portrait-vintage-car-640.webp 640w, assets/images/portrait-vintage-car-1280.webp 1280w"/></figure><figure class="image-reveal"><img alt="წყვილის ფოტოსესია" loading="lazy" sizes="(max-width: 620px) calc(100vw - 28px), (max-width: 1100px) 50vw, 42vw" src="assets/images/couple-running-field.jpg" srcset="assets/images/couple-running-field-640.webp 640w, assets/images/couple-running-field-1280.webp 1280w"/></figure><figure class="image-reveal"><img alt="ნათლობის ფოტოგრაფია" loading="lazy" sizes="(max-width: 620px) calc(100vw - 28px), (max-width: 1100px) 50vw, 42vw" src="assets/images/baptism-water.jpg" srcset="assets/images/baptism-water-640.webp 640w, assets/images/baptism-water-1280.webp 1280w"/></figure></div></div></section>
+<section class="section"><div class="container"><div class="section-heading center reveal"><span class="eyebrow">FAQ</span><h2>დაჯავშნამდე</h2><p>რამდენიმე მოკლე პასუხი, რომ პროცესი მარტივად დაიწყოთ.</p></div><div class="faq-list reveal"><div class="faq-item"><button aria-expanded="false" class="faq-question" type="button">თარიღის მითითება ნიშნავს, რომ უკვე დაჯავშნილია?<span aria-hidden="true" class="faq-icon"></span></button><div class="faq-answer"><div><p>არა. ფორმა არის მოთხოვნა. თარიღი საბოლოოდ დადასტურდება მას შემდეგ, რაც დეტალებს შეთანხმდებით.</p></div></div></div><div class="faq-item"><button aria-expanded="false" class="faq-question" type="button">თუ ზუსტი ლოკაცია ჯერ არ ვიცი?<span aria-hidden="true" class="faq-icon"></span></button><div class="faq-answer"><div><p>შეგიძლიათ უბრალოდ აღწეროთ სასურველი განწყობა. შესაბამისი ლოკაციის არჩევა შემდეგ ეტაპზე შეგვიძლია.</p></div></div></div><div class="faq-item"><button aria-expanded="false" class="faq-question" type="button">შეიძლება რამდენიმე იდეა მქონდეს?<span aria-hidden="true" class="faq-icon"></span></button><div class="faq-answer"><div><p>რა თქმა უნდა. ფორმაში ჩამოწერეთ ყველა ვარიანტი და საბოლოო მიმართულებას კომუნიკაციისას ავარჩევთ.</p></div></div></div></div></div></section>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<div class="footer-brand">Moments by TM</div>
+<p class="footer-copy">თბილი, ბუნებრივი და ემოციური ფოტოგრაფია — ადამიანების, ურთიერთობებისა და იმ პატარა მომენტებისთვის, რომლებიც დიდ მოგონებად რჩება.</p>
+</div>
+<div>
+<div class="footer-title">ნავიგაცია</div>
+<div class="footer-links">
+<a href="index.html">მთავარი</a><a href="portfolio.html">პორტფოლიო</a><a href="about.html">ჩემ შესახებ</a><a href="services.html">სერვისები და ფასები</a><a href="contact.html">დაჯავშნა</a>
+</div>
+</div>
+<div>
+<div class="footer-title">კონტაქტი</div>
+<div class="footer-links">
+<a href="https://www.instagram.com/momentsbytm/" rel="noopener" target="_blank">Instagram · @momentsbytm ↗</a>
+<span>თბილისი · საქართველო</span>
+</div>
+</div>
+</div>
+<div class="footer-bottom"><span>© <span data-year=""></span> Moments by TM. ყველა უფლება დაცულია.</span><span>Photography by Tamari Modebadze</span></div>
+</div>
+</footer>
+</div>
+</body>
+</html>
